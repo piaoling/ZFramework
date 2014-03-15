@@ -18,6 +18,12 @@
 		D525785518D0A23700FA24EC /* ZFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D525785318D0A23700FA24EC /* ZFViewController.m */; };
 		D55954AA18AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = D55954A718AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m */; };
 		D55954AB18AB640400C1F920 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D55954A918AB640400C1F920 /* UIScrollView+SVPullToRefresh.m */; };
+		D588043118D47431009C1C84 /* UILabel+ZFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = D588043018D47431009C1C84 /* UILabel+ZFramework.m */; };
+		D588043718D47E4B009C1C84 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = D588043418D47E4B009C1C84 /* IIViewDeckController.m */; };
+		D588043818D47E4B009C1C84 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = D588043618D47E4B009C1C84 /* IIWrapController.m */; };
+		D588043B18D47FED009C1C84 /* UIColor+ZFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = D588043A18D47FED009C1C84 /* UIColor+ZFramework.m */; };
+		D588043E18D48358009C1C84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D588043D18D48358009C1C84 /* QuartzCore.framework */; };
+		D588044118D484E7009C1C84 /* ZFViewDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D588044018D484E7009C1C84 /* ZFViewDeckViewController.m */; };
 		D5900FD1188A3CE20090E5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5900FD0188A3CE20090E5EC /* Foundation.framework */; };
 		D5900FD3188A3CE20090E5EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5900FD2188A3CE20090E5EC /* CoreGraphics.framework */; };
 		D5900FD5188A3CE20090E5EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5900FD4188A3CE20090E5EC /* UIKit.framework */; };
@@ -30,7 +36,6 @@
 		D5900FEC188A3CE20090E5EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5900FD4188A3CE20090E5EC /* UIKit.framework */; };
 		D5900FF4188A3CE20090E5EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5900FF2188A3CE20090E5EC /* InfoPlist.strings */; };
 		D5900FF6188A3CE20090E5EC /* ZFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5900FF5188A3CE20090E5EC /* ZFrameworkTests.m */; };
-		D5901002188A3DDD0090E5EC /* UILabel+ZFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = D5901001188A3DDD0090E5EC /* UILabel+ZFramework.m */; };
 		D59041A5188BDE6B004F42FE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D59041A1188BDE6B004F42FE /* LICENSE */; };
 		D59041A6188BDE6B004F42FE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D59041A3188BDE6B004F42FE /* MBProgressHUD.m */; };
 		D59041A7188BDE6B004F42FE /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = D59041A4188BDE6B004F42FE /* README.mdown */; };
@@ -66,6 +71,18 @@
 		D55954A718AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
 		D55954A818AB640400C1F920 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
 		D55954A918AB640400C1F920 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		D588042F18D47431009C1C84 /* UILabel+ZFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZFramework.h"; sourceTree = "<group>"; };
+		D588043018D47431009C1C84 /* UILabel+ZFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZFramework.m"; sourceTree = "<group>"; };
+		D588043318D47E4B009C1C84 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		D588043418D47E4B009C1C84 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		D588043518D47E4B009C1C84 /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
+		D588043618D47E4B009C1C84 /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
+		D588043918D47FED009C1C84 /* UIColor+ZFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZFramework.h"; sourceTree = "<group>"; };
+		D588043A18D47FED009C1C84 /* UIColor+ZFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZFramework.m"; sourceTree = "<group>"; };
+		D588043C18D4810E009C1C84 /* GeneralHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralHeaders.h; sourceTree = "<group>"; };
+		D588043D18D48358009C1C84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D588043F18D484E7009C1C84 /* ZFViewDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFViewDeckViewController.h; sourceTree = "<group>"; };
+		D588044018D484E7009C1C84 /* ZFViewDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFViewDeckViewController.m; sourceTree = "<group>"; };
 		D5900FCD188A3CE20090E5EC /* ZFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5900FD0188A3CE20090E5EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5900FD2188A3CE20090E5EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,8 +99,6 @@
 		D5900FF1188A3CE20090E5EC /* ZFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		D5900FF3188A3CE20090E5EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5900FF5188A3CE20090E5EC /* ZFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFrameworkTests.m; sourceTree = "<group>"; };
-		D5901000188A3DDD0090E5EC /* UILabel+ZFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+ZFramework.h"; path = "Categories/UILabel+ZFramework.h"; sourceTree = "<group>"; };
-		D5901001188A3DDD0090E5EC /* UILabel+ZFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ZFramework.m"; path = "Categories/UILabel+ZFramework.m"; sourceTree = "<group>"; };
 		D59041A1188BDE6B004F42FE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D59041A2188BDE6B004F42FE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		D59041A3188BDE6B004F42FE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
@@ -99,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D588043E18D48358009C1C84 /* QuartzCore.framework in Frameworks */,
 				D5900FD3188A3CE20090E5EC /* CoreGraphics.framework in Frameworks */,
 				D5900FD5188A3CE20090E5EC /* UIKit.framework in Frameworks */,
 				D5900FD1188A3CE20090E5EC /* Foundation.framework in Frameworks */,
@@ -142,6 +158,7 @@
 		D525784418D09F6000FA24EC /* General */ = {
 			isa = PBXGroup;
 			children = (
+				D588043C18D4810E009C1C84 /* GeneralHeaders.h */,
 				D525784A18D0A13800FA24EC /* Categories */,
 				D525784B18D0A13800FA24EC /* Classes */,
 				D525784C18D0A13800FA24EC /* Views */,
@@ -175,6 +192,10 @@
 		D525784A18D0A13800FA24EC /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				D588043918D47FED009C1C84 /* UIColor+ZFramework.h */,
+				D588043A18D47FED009C1C84 /* UIColor+ZFramework.m */,
+				D588042F18D47431009C1C84 /* UILabel+ZFramework.h */,
+				D588043018D47431009C1C84 /* UILabel+ZFramework.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -186,6 +207,8 @@
 				D525785118D0A23700FA24EC /* ZFTableViewController.m */,
 				D525785218D0A23700FA24EC /* ZFViewController.h */,
 				D525785318D0A23700FA24EC /* ZFViewController.m */,
+				D588043F18D484E7009C1C84 /* ZFViewDeckViewController.h */,
+				D588044018D484E7009C1C84 /* ZFViewDeckViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -208,6 +231,18 @@
 			);
 			name = SVPullToRefresh;
 			path = Venders/SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		D588043218D47E4B009C1C84 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				D588043318D47E4B009C1C84 /* IIViewDeckController.h */,
+				D588043418D47E4B009C1C84 /* IIViewDeckController.m */,
+				D588043518D47E4B009C1C84 /* IIWrapController.h */,
+				D588043618D47E4B009C1C84 /* IIWrapController.m */,
+			);
+			name = ViewDeck;
+			path = Venders/ViewDeck;
 			sourceTree = "<group>";
 		};
 		D5900FC4188A3CE20090E5EC = {
@@ -233,6 +268,7 @@
 		D5900FCF188A3CE20090E5EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D588043D18D48358009C1C84 /* QuartzCore.framework */,
 				D5900FD0188A3CE20090E5EC /* Foundation.framework */,
 				D5900FD2188A3CE20090E5EC /* CoreGraphics.framework */,
 				D5900FD4188A3CE20090E5EC /* UIKit.framework */,
@@ -248,7 +284,6 @@
 				D525784518D09F7700FA24EC /* Helpers */,
 				D59041AD188BE8ED004F42FE /* Macros */,
 				D525784618D09FB300FA24EC /* Models */,
-				D5900FFF188A3D1A0090E5EC /* Categories */,
 				D525784718D09FE400FA24EC /* Sections */,
 				D590419E188BDDD7004F42FE /* Vendors */,
 				D5900FDF188A3CE20090E5EC /* AppDelegate.h */,
@@ -288,20 +323,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D5900FFF188A3D1A0090E5EC /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				D5901000188A3DDD0090E5EC /* UILabel+ZFramework.h */,
-				D5901001188A3DDD0090E5EC /* UILabel+ZFramework.m */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
 		D590419E188BDDD7004F42FE /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
 				D55954A418AB640400C1F920 /* SVPullToRefresh */,
 				D59041A0188BDE6B004F42FE /* MBProgressHUD */,
+				D588043218D47E4B009C1C84 /* ViewDeck */,
 			);
 			name = Vendors;
 			sourceTree = "<group>";
@@ -444,13 +471,17 @@
 			files = (
 				D525785418D0A23700FA24EC /* ZFTableViewController.m in Sources */,
 				D55954AA18AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				D588043118D47431009C1C84 /* UILabel+ZFramework.m in Sources */,
 				D5900FE1188A3CE20090E5EC /* AppDelegate.m in Sources */,
 				D55954AB18AB640400C1F920 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				D525785518D0A23700FA24EC /* ZFViewController.m in Sources */,
+				D588044118D484E7009C1C84 /* ZFViewDeckViewController.m in Sources */,
 				D59041A6188BDE6B004F42FE /* MBProgressHUD.m in Sources */,
+				D588043B18D47FED009C1C84 /* UIColor+ZFramework.m in Sources */,
+				D588043718D47E4B009C1C84 /* IIViewDeckController.m in Sources */,
 				D5900FDD188A3CE20090E5EC /* main.m in Sources */,
-				D5901002188A3DDD0090E5EC /* UILabel+ZFramework.m in Sources */,
 				D525784F18D0A1DC00FA24EC /* HudUtils.m in Sources */,
+				D588043818D47E4B009C1C84 /* IIWrapController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
