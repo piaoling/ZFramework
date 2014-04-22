@@ -41,7 +41,7 @@
 
 @implementation NSData (Base64)
 
-+ (NSData *)tn_dataWithBase64EncodedString:(NSString *)string
++ (NSData *)zf_dataWithBase64EncodedString:(NSString *)string
 {
     const char lookup[] =
     {
@@ -92,7 +92,7 @@
     return outputLength? outputData: nil;
 }
 
-- (NSString *)tn_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth
+- (NSString *)zf_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth
 {
     //ensure wrapWidth is a multiple of 4
     wrapWidth = (wrapWidth / 4) * 4;
@@ -157,9 +157,9 @@
     return nil;
 }
 
-- (NSString *)tn_base64EncodedString
+- (NSString *)zf_base64EncodedString
 {
-    return [self tn_base64EncodedStringWithWrapWidth:0];
+    return [self zf_base64EncodedStringWithWrapWidth:0];
 }
 
 @end
@@ -167,9 +167,9 @@
 
 @implementation NSString (Base64)
 
-+ (NSString *)tn_stringWithBase64EncodedString:(NSString *)string
++ (NSString *)zf_stringWithBase64EncodedString:(NSString *)string
 {
-    NSData *data = [NSData tn_dataWithBase64EncodedString:string];
+    NSData *data = [NSData zf_dataWithBase64EncodedString:string];
     if (data)
     {
         return [[self alloc] initWithData:data encoding:NSUTF8StringEncoding];
@@ -177,26 +177,26 @@
     return nil;
 }
 
-- (NSString *)tn_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth
+- (NSString *)zf_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth
 {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
-    return [data tn_base64EncodedStringWithWrapWidth:wrapWidth];
+    return [data zf_base64EncodedStringWithWrapWidth:wrapWidth];
 }
 
-- (NSString *)tn_base64EncodedString
+- (NSString *)zf_base64EncodedString
 {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
-    return [data tn_base64EncodedString];
+    return [data zf_base64EncodedString];
 }
 
-- (NSString *)tn_base64DecodedString
+- (NSString *)zf_base64DecodedString
 {
-    return [NSString tn_stringWithBase64EncodedString:self];
+    return [NSString zf_stringWithBase64EncodedString:self];
 }
 
-- (NSData *)tn_base64DecodedData
+- (NSData *)zf_base64DecodedData
 {
-    return [NSData tn_dataWithBase64EncodedString:self];
+    return [NSData zf_dataWithBase64EncodedString:self];
 }
 
 @end

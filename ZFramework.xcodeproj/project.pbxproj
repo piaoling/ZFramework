@@ -43,6 +43,13 @@
 		D528F2D018DEE69E002C2562 /* ZFTimedCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D528F2CF18DEE69E002C2562 /* ZFTimedCache.m */; };
 		D528F2D318DEE99E002C2562 /* ZFSevenDaysCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D528F2D218DEE99E002C2562 /* ZFSevenDaysCache.m */; };
 		D528F2D618DEEA0E002C2562 /* ZFPermanentCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D528F2D518DEEA0E002C2562 /* ZFPermanentCache.m */; };
+		D5331FB81906A868009408A8 /* ZFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D5331FB71906A868009408A8 /* ZFTextField.m */; };
+		D5331FBB1906A91D009408A8 /* ZFAutoLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5331FBA1906A91D009408A8 /* ZFAutoLabel.m */; };
+		D5331FD01906AD20009408A8 /* UILabel+VerticalAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = D5331FBD1906AD20009408A8 /* UILabel+VerticalAlign.m */; };
+		D5331FD11906AD20009408A8 /* NSDictionary+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5331FBF1906AD20009408A8 /* NSDictionary+MutableDeepCopy.m */; };
+		D5331FD21906AD20009408A8 /* NSString+ZFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = D5331FC11906AD20009408A8 /* NSString+ZFramework.m */; };
+		D5331FD31906AD20009408A8 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D5331FC31906AD20009408A8 /* UIAlertView+Blocks.m */; };
+		D5331FDC1906AF82009408A8 /* UIImage+ZFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = D5331FDB1906AF82009408A8 /* UIImage+ZFramework.m */; };
 		D55954AA18AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = D55954A718AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m */; };
 		D55954AB18AB640400C1F920 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D55954A918AB640400C1F920 /* UIScrollView+SVPullToRefresh.m */; };
 		D588043118D47431009C1C84 /* UILabel+ZFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = D588043018D47431009C1C84 /* UILabel+ZFramework.m */; };
@@ -147,6 +154,20 @@
 		D528F2D218DEE99E002C2562 /* ZFSevenDaysCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSevenDaysCache.m; sourceTree = "<group>"; };
 		D528F2D418DEEA0E002C2562 /* ZFPermanentCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPermanentCache.h; sourceTree = "<group>"; };
 		D528F2D518DEEA0E002C2562 /* ZFPermanentCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPermanentCache.m; sourceTree = "<group>"; };
+		D5331FB61906A868009408A8 /* ZFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTextField.h; sourceTree = "<group>"; };
+		D5331FB71906A868009408A8 /* ZFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTextField.m; sourceTree = "<group>"; };
+		D5331FB91906A91D009408A8 /* ZFAutoLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAutoLabel.h; sourceTree = "<group>"; };
+		D5331FBA1906A91D009408A8 /* ZFAutoLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAutoLabel.m; sourceTree = "<group>"; };
+		D5331FBC1906AD20009408A8 /* UILabel+VerticalAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VerticalAlign.h"; sourceTree = "<group>"; };
+		D5331FBD1906AD20009408A8 /* UILabel+VerticalAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VerticalAlign.m"; sourceTree = "<group>"; };
+		D5331FBE1906AD20009408A8 /* NSDictionary+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MutableDeepCopy.h"; sourceTree = "<group>"; };
+		D5331FBF1906AD20009408A8 /* NSDictionary+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MutableDeepCopy.m"; sourceTree = "<group>"; };
+		D5331FC01906AD20009408A8 /* NSString+ZFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZFramework.h"; sourceTree = "<group>"; };
+		D5331FC11906AD20009408A8 /* NSString+ZFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZFramework.m"; sourceTree = "<group>"; };
+		D5331FC21906AD20009408A8 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		D5331FC31906AD20009408A8 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		D5331FDA1906AF82009408A8 /* UIImage+ZFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZFramework.h"; sourceTree = "<group>"; };
+		D5331FDB1906AF82009408A8 /* UIImage+ZFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZFramework.m"; sourceTree = "<group>"; };
 		D55954A518AB640400C1F920 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
 		D55954A618AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
 		D55954A718AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
@@ -273,10 +294,20 @@
 		D525784A18D0A13800FA24EC /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				D5331FBC1906AD20009408A8 /* UILabel+VerticalAlign.h */,
+				D5331FBD1906AD20009408A8 /* UILabel+VerticalAlign.m */,
+				D5331FBE1906AD20009408A8 /* NSDictionary+MutableDeepCopy.h */,
+				D5331FBF1906AD20009408A8 /* NSDictionary+MutableDeepCopy.m */,
+				D5331FC01906AD20009408A8 /* NSString+ZFramework.h */,
+				D5331FC11906AD20009408A8 /* NSString+ZFramework.m */,
+				D5331FC21906AD20009408A8 /* UIAlertView+Blocks.h */,
+				D5331FC31906AD20009408A8 /* UIAlertView+Blocks.m */,
 				D588043918D47FED009C1C84 /* UIColor+ZFramework.h */,
 				D588043A18D47FED009C1C84 /* UIColor+ZFramework.m */,
 				D588042F18D47431009C1C84 /* UILabel+ZFramework.h */,
 				D588043018D47431009C1C84 /* UILabel+ZFramework.m */,
+				D5331FDA1906AF82009408A8 /* UIImage+ZFramework.h */,
+				D5331FDB1906AF82009408A8 /* UIImage+ZFramework.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -299,6 +330,10 @@
 		D525784C18D0A13800FA24EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D5331FB61906A868009408A8 /* ZFTextField.h */,
+				D5331FB71906A868009408A8 /* ZFTextField.m */,
+				D5331FB91906A91D009408A8 /* ZFAutoLabel.h */,
+				D5331FBA1906A91D009408A8 /* ZFAutoLabel.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -659,20 +694,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				D528F2AE18DEBA5C002C2562 /* Base64.m in Sources */,
+				D5331FBB1906A91D009408A8 /* ZFAutoLabel.m in Sources */,
+				D5331FDC1906AF82009408A8 /* UIImage+ZFramework.m in Sources */,
 				D528F2A918DEBA5C002C2562 /* AFURLConnectionOperation.m in Sources */,
 				D525785418D0A23700FA24EC /* ZFTableViewController.m in Sources */,
 				D55954AA18AB640400C1F920 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
 				D528F2B918DEBACD002C2562 /* ZFBase64JSONRequestOperation.m in Sources */,
+				D5331FB81906A868009408A8 /* ZFTextField.m in Sources */,
 				D528F2D618DEEA0E002C2562 /* ZFPermanentCache.m in Sources */,
 				D588043118D47431009C1C84 /* UILabel+ZFramework.m in Sources */,
 				D528F2A618DEBA5C002C2562 /* AFJSONRequestOperation.m in Sources */,
 				D528F2C618DEE485002C2562 /* TMMemoryCache.m in Sources */,
+				D5331FD01906AD20009408A8 /* UILabel+VerticalAlign.m in Sources */,
 				D528F2AA18DEBA5C002C2562 /* AFXMLRequestOperation.m in Sources */,
 				D528F2C518DEE485002C2562 /* TMDiskCache.m in Sources */,
 				D528F2A718DEBA5C002C2562 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				D528F2CD18DEE604002C2562 /* ZFImageCache.m in Sources */,
 				D528F2D018DEE69E002C2562 /* ZFTimedCache.m in Sources */,
+				D5331FD31906AD20009408A8 /* UIAlertView+Blocks.m in Sources */,
 				D5900FE1188A3CE20090E5EC /* AppDelegate.m in Sources */,
+				D5331FD21906AD20009408A8 /* NSString+ZFramework.m in Sources */,
 				D528F2A318DEBA5C002C2562 /* AFHTTPRequestOperation.m in Sources */,
 				D528F2C418DEE485002C2562 /* TMCache.m in Sources */,
 				D55954AB18AB640400C1F920 /* UIScrollView+SVPullToRefresh.m in Sources */,
@@ -695,6 +736,7 @@
 				D528F2A118DEBA5C002C2562 /* AFDownloadRequestOperation.m in Sources */,
 				D5900FDD188A3CE20090E5EC /* main.m in Sources */,
 				D525784F18D0A1DC00FA24EC /* HudUtils.m in Sources */,
+				D5331FD11906AD20009408A8 /* NSDictionary+MutableDeepCopy.m in Sources */,
 				D588043818D47E4B009C1C84 /* IIWrapController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,19 +35,19 @@
 
 @interface NSData (Base64)
 
-+ (NSData *)tn_dataWithBase64EncodedString:(NSString *)string;
-- (NSString *)tn_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
-- (NSString *)tn_base64EncodedString;
++ (NSData *)zf_dataWithBase64EncodedString:(NSString *)string;
+- (NSString *)zf_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
+- (NSString *)zf_base64EncodedString;
 
 @end
 
 
 @interface NSString (Base64)
 
-+ (NSString *)tn_stringWithBase64EncodedString:(NSString *)string;
-- (NSString *)tn_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
-- (NSString *)tn_base64EncodedString;
-- (NSString *)tn_base64DecodedString;
-- (NSData *)tn_base64DecodedData;
++ (NSString *)zf_stringWithBase64EncodedString:(NSString *)string;
+- (NSString *)zf_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
+- (NSString *)zf_base64EncodedString;
+- (NSString *)zf_base64DecodedString;
+- (NSData *)zf_base64DecodedData;
 
 @end
