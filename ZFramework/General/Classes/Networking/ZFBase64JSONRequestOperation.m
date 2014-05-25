@@ -40,7 +40,7 @@ static dispatch_queue_t base64_json_request_operation_processing_queue() {
     if (!_responseJSONBase64Object && [self.responseData length] > 0 && [self isFinished] && !self.base64Error) {
         NSError *error = nil;
         
-        NSString *responseJSONString = [NSString tn_stringWithBase64EncodedString:self.responseString]; //base64 decode
+        NSString *responseJSONString = [NSString zf_stringWithBase64EncodedString:self.responseString]; //base64 decode
         if (responseJSONString) {
             self.responseJSONBase64Object = [responseJSONString objectFromJSONString]; //json decode
         } else {
@@ -90,7 +90,7 @@ static dispatch_queue_t base64_json_request_operation_processing_queue() {
                  self.request,
                  self.request.HTTPMethod,
                  [[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding],
-                 [[[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding] tn_base64DecodedString]);
+                 [[[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding] zf_base64DecodedString]);
             
             [self formatError];
             if (failure) {
@@ -112,7 +112,7 @@ static dispatch_queue_t base64_json_request_operation_processing_queue() {
                          self.request,
                          self.request.HTTPMethod,
                          [[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding],
-                         [[[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding] tn_base64DecodedString],
+                         [[[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding] zf_base64DecodedString],
                          originObject);
 
                     [self formatError];
@@ -126,7 +126,7 @@ static dispatch_queue_t base64_json_request_operation_processing_queue() {
                          self.request,
                          self.request.HTTPMethod,
                          [[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding],
-                         [[[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding] tn_base64DecodedString],
+                         [[[NSString alloc] initWithData:self.request.HTTPBody encoding:NSUTF8StringEncoding] zf_base64DecodedString],
                          originObject);
                     BOOL isSuccess = [originObject[@"success"] boolValue]; //操作是否成功
                     //操作成功

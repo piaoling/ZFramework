@@ -15,6 +15,7 @@
 #import "PromptMacro.h"
 #import "APIMacro.h"
 #import "UtilMacro.h"
+#import "EnumsMacros.h"
 
 
 

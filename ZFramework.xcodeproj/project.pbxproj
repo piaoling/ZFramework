@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51743AD191E2D5100EEC866 /* ZFJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D51743AC191E2D5100EEC866 /* ZFJsonModel.m */; };
 		D525783E18D09F4600FA24EC /* check_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = D525783818D09F4600FA24EC /* check_mark.png */; };
 		D525783F18D09F4600FA24EC /* check_mark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D525783918D09F4600FA24EC /* check_mark@2x.png */; };
 		D525784018D09F4600FA24EC /* mb_error.png in Resources */ = {isa = PBXBuildFile; fileRef = D525783A18D09F4600FA24EC /* mb_error.png */; };
@@ -86,6 +87,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D51743AB191E2D5100EEC866 /* ZFJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFJsonModel.h; sourceTree = "<group>"; };
+		D51743AC191E2D5100EEC866 /* ZFJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFJsonModel.m; sourceTree = "<group>"; };
+		D51743AE191E2EDE00EEC866 /* EnumsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumsMacros.h; sourceTree = "<group>"; };
 		D525783818D09F4600FA24EC /* check_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_mark.png; sourceTree = "<group>"; };
 		D525783918D09F4600FA24EC /* check_mark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check_mark@2x.png"; sourceTree = "<group>"; };
 		D525783A18D09F4600FA24EC /* mb_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mb_error.png; sourceTree = "<group>"; };
@@ -236,6 +240,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D51743AA191E2D3100EEC866 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D51743AB191E2D5100EEC866 /* ZFJsonModel.h */,
+				D51743AC191E2D5100EEC866 /* ZFJsonModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D525783618D09F4600FA24EC /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				D528F2C718DEE56F002C2562 /* Cache */,
+				D51743AA191E2D3100EEC866 /* Models */,
 				D528F2B218DEBACD002C2562 /* Networking */,
 				D525785018D0A23700FA24EC /* ZFTableViewController.h */,
 				D525785118D0A23700FA24EC /* ZFTableViewController.m */,
@@ -576,6 +590,7 @@
 				D59041C1188BF705004F42FE /* UtilMacro.h */,
 				D525784918D0A0BF00FA24EC /* VendorMacro.h */,
 				D528F2BC18DEBC05002C2562 /* APIMacro.h */,
+				D51743AE191E2EDE00EEC866 /* EnumsMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -710,6 +725,7 @@
 				D528F2C518DEE485002C2562 /* TMDiskCache.m in Sources */,
 				D528F2A718DEBA5C002C2562 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				D528F2CD18DEE604002C2562 /* ZFImageCache.m in Sources */,
+				D51743AD191E2D5100EEC866 /* ZFJsonModel.m in Sources */,
 				D528F2D018DEE69E002C2562 /* ZFTimedCache.m in Sources */,
 				D5331FD31906AD20009408A8 /* UIAlertView+Blocks.m in Sources */,
 				D5900FE1188A3CE20090E5EC /* AppDelegate.m in Sources */,

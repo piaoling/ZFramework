@@ -62,7 +62,7 @@
         parameters = [NSDictionary dictionaryWithDictionary:tmpParameters];
         
         if ([method isEqualToString:@"GET"] || [method isEqualToString:@"HEAD"] || [method isEqualToString:@"DELETE"]) {
-            NSString *paramString = [[parameters JSONString] tn_base64EncodedString];
+            NSString *paramString = [[parameters JSONString] zf_base64EncodedString];
             NSURL *url = request.URL;
             url = [NSURL URLWithString:[[url absoluteString] stringByAppendingFormat:[path rangeOfString:@"?"].location == NSNotFound ? @"?%@" : @"&%@", paramString]];
 //            url = [NSURL URLWithString:[[url absoluteString] stringByAppendingFormat:@"/%@", paramString]];
@@ -73,7 +73,7 @@
             [request setValue:[NSString stringWithFormat:@"text/html; charset=%@", charset] forHTTPHeaderField:@"Content-Type"];
             
             NSString *postString = [parameters JSONString]; //json encode
-            postString = [postString tn_base64EncodedString]; //base64 encode
+            postString = [postString zf_base64EncodedString]; //base64 encode
             NSData *postData = [postString dataUsingEncoding:NSUTF8StringEncoding];
             [request setHTTPBody:postData];
         }
