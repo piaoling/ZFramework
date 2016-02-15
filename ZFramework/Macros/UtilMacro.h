@@ -46,4 +46,17 @@
 //Iphone屏幕尺寸判断
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 
+// 判断系统版本是否大于x.x
+//#define IOSVersion_3_2		([[[UIDevice currentDevice] systemVersion] floatValue] >= 3.2)
+//#define IOSVersion_4			([[[UIDevice currentDevice] systemVersion] floatValue] >= 4.0)
+//#define IOSVersion_5			([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0)
+//#define IOSVersion_6			([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+//#define IOSVersion_61			([[[UIDevice currentDevice] systemVersion] floatValue] > 6.1)   // passbook 有问题版本
+#define IOSVersion_7            ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define IOSVersion_8            ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IOSVersion_9            ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+
+#define STRINGHASVALUE(str)		(str && [str isKindOfClass:[NSString class]] && [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length > 0)
+
+
 #endif
